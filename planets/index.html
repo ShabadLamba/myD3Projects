@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SVG Basics</title>
+  </head>
+  <body>
+    <div
+      id="particles-js"
+      style="z-index: -1; position: fixed; width: 100vw; height: 100vh"
+    ></div>
+    <div class="canvas">
+      <svg width="1000" height="600" style="position: absolute" class="svg">
+        <circle></circle>
+      </svg>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.6.0/d3.min.js"
+      integrity="sha512-XgjkLS0sSzUq88GniFcrLy6zjgVWkBoRFziaLm1Z+gVgkHuO3ieikhD/Q6eNKXAsp88yvBFS0n6ovVlabXftIg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+      integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+    <script src="particles.js"></script>
+  </body>
+
+  <style>
+    body {
+      background-color: #2c2c2c;
+    }
+    .canvas {
+      display: flex;
+      height: 90vh;
+      align-items: center;
+    }
+  </style>
+</html>
